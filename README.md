@@ -4,6 +4,9 @@ The dataset used here contains 25,000 images of cats and dogs in seperate folder
 The classifier is a simple convolutional neural network to classify the images.
 The model uses Tensorflow 2.0
 
+The  loss and accuracy acheived on the test data is as follows:
+loss: 0.3733 - accuracy: 0.8446
+
 Model Architecture:
 Input Data Shape: 64x64x1 (loaded the images in Gray Scale)
 
