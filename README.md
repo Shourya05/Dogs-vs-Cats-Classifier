@@ -7,25 +7,37 @@ Model Architecture:
 Input Data Shape: 64x64x1 (loaded the images in Gray Scale)
 
 Layer 1:
+
 Convolutional Layer 64 filter Filter shape: 3x3
+
 Activation Function: ReLu
+
 Max Pooling Pool shape: 2x2
 
 Layer 2:
+
 Convolutional Layer 64 filter Filter shape: 3x3
+
 Activation Function: ReLu
+
 Max Pooling Pool shape: 2x2
 
 Layer 3:
+
 Convolutional Layer 64 filter Filter shape: 3x3
+
 Activation Function: ReLu
+
 Max Pooling Pool shape: 2x2
 
 Classification:
+
 Flatten
+
 Dense Size: 1
+
 Activation Function: Sigmoid
 
-Optimizer: Adam
-Loss: Binary Crossentropy
+Optimizer: Adam,
+Loss: Binary Crossentropy,
 Metrics: Accuracy
