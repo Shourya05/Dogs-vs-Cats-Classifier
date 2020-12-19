@@ -1,7 +1,8 @@
 # Dogs-vs-Cats-Classifier
 This is simple classifier for binary classification of Dogs and Cats images with deep learning.
 The dataset used here contains 25,000 images of cats and dogs in seperate folders for both the categories.
-The classifier uses a simple convolutional neural network to classify the images.
+The classifier is a simple convolutional neural network to classify the images.
+The model uses Tensorflow 2.0
 
 Model Architecture:
 Input Data Shape: 64x64x1 (loaded the images in Gray Scale)
