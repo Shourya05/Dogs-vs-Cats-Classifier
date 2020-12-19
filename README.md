@@ -8,7 +8,7 @@ Input Data Shape: 64x64x1 (loaded the images in Gray Scale)
 
 Layer 1:
 
-Convolutional Layer 64  
+Convolutional Layer Filters: 64  
 
 Filter shape: 3x3
 
@@ -18,7 +18,7 @@ Max Pooling Pool shape: 2x2
 
 Layer 2:
 
-Convolutional Layer 64 
+Convolutional Layer Filters: 64 
 
 Filter shape: 3x3
 
@@ -28,7 +28,7 @@ Max Pooling Pool shape: 2x2
 
 Layer 3:
 
-Convolutional Layer 64 
+Convolutional Layer Filters: 64 
 
 Filter shape: 3x3
 
